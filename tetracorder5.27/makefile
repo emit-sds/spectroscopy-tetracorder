@@ -1,5 +1,5 @@
 GET= get
-SPRDIR=../specpr/
+SPRDIR=${SP_LOCAL}
 
 OBJ = tetracorder.o	\
 makvicarlabel.o		\
@@ -36,23 +36,23 @@ i4pack4.o		\
 getnotfeat.o		\
 getifeat.o		\
 applygtpconstraints.o	\
-../specpr/src.specpr/common/spblockdata.o
+${SP_LOCAL}/src.specpr/common/spblockdata.o
 
 INCL= \
-../specpr/src.specpr/common/label1   \
-../specpr/src.specpr/common/lbl3     \
-../specpr/src.specpr/common/lbl4     \
-../specpr/src.specpr/common/lbl7     \
-../specpr/src.specpr/common/lundefs  \
-../specpr/src.specpr/common/alphabet \
-../specpr/src.specpr/common/cmd      \
-../specpr/src.specpr/common/lblg    \
-../specpr/src.specpr/common/lblwav  \
-../specpr/src.specpr/common/cmdarg  \
-../specpr/src.specpr/common/dscrch  \
-../specpr/src.specpr/common/ioftyp  \
-../specpr/src.specpr/common/blank   \
-../specpr/src.specpr/common/lblvol  \
+${SP_LOCAL}/src.specpr/common/label1   \
+${SP_LOCAL}/src.specpr/common/lbl3     \
+${SP_LOCAL}/src.specpr/common/lbl4     \
+${SP_LOCAL}/src.specpr/common/lbl7     \
+${SP_LOCAL}/src.specpr/common/lundefs  \
+${SP_LOCAL}/src.specpr/common/alphabet \
+${SP_LOCAL}/src.specpr/common/cmd      \
+${SP_LOCAL}/src.specpr/common/lblg    \
+${SP_LOCAL}/src.specpr/common/lblwav  \
+${SP_LOCAL}/src.specpr/common/cmdarg  \
+${SP_LOCAL}/src.specpr/common/dscrch  \
+${SP_LOCAL}/src.specpr/common/ioftyp  \
+${SP_LOCAL}/src.specpr/common/blank   \
+${SP_LOCAL}/src.specpr/common/lblvol  \
 tricube.h	\
 tri1.h		\
 obuffers.h	\
@@ -74,19 +74,19 @@ tetracorder5.27single:	$(OBJ) $(SPRDIR)/lib/specpr.a $(INCL)
 
 install:	$(OBJ) $(SPRDIR)/lib/specpr.a $(INCL) tetracorder5.27
 	./checkmultmapcompilemode  cube
-	cp tetracorder5.27 /usr/local/bin/tetracorder5.27
-	chmod 755 /usr/local/bin/tetracorder5.27
-	size /usr/local/bin/tetracorder5.27
-	cp -a tetracordersound /usr/local/bin/tetracordersound
-	chmod 755 /usr/local/bin/tetracordersound
+	cp tetracorder5.27 ${TETRA}/bin/tetracorder5.27
+	chmod 755 ${TETRA}/bin/tetracorder5.27
+	size ${TETRA}/bin/tetracorder5.27
+	cp -a tetracordersound ${TETRA}/bin/tetracordersound
+	chmod 755 ${TETRA}/bin/tetracordersound
 
 installsingle:	$(OBJ) $(SPRDIR)/lib/specpr.a $(INCL) tetracorder5.27single
 	./checkmultmapcompilemode  singlespectrum
-	cp tetracorder5.27single /usr/local/bin/tetracorder5.27single
-	chmod 755 /usr/local/bin/tetracorder5.27single
-	size /usr/local/bin/tetracorder5.27single
-	cp -a tetracordersound /usr/local/bin/tetracordersound
-	chmod 755 /usr/local/bin/tetracordersound
+	cp tetracorder5.27single ${TETRA}/bin/tetracorder5.27single
+	chmod 755 ${TETRA}/bin/tetracorder5.27single
+	size ${TETRA}/bin/tetracorder5.27single
+	cp -a tetracordersound ${TETRA}/bin/tetracordersound
+	chmod 755 ${TETRA}/bin/tetracordersound
 
 	
 
