@@ -17,7 +17,7 @@
 ####################################################################
 #### NOTE: THINGS TO CHANGE IF THIS SCRIPT IS MOVED:          ######
                                                               ######
-source=/t1/tetracorder.cmds/tetracorder5.26e.cmds             ######
+source=${TETRA_CMDS}                                          ######
                                                               ######
 ####################################################################
 #### NOTE: THINGS TO CHANGE FOR NEW VERSIONS                  ######
@@ -702,7 +702,7 @@ else
 fi
 
 cp -a ${source}/AAAAA.readme.txt                                         ${dir}/
-cp -a ${source}/AAAA.license.txt                                         ${dir}/
+cp -a ${source}/license.txt                                              ${dir}/AAAA.license.txt
 cp -a ${source}/AAA.cmds.to.get.average.spectra.of.mapped.materials      ${dir}/
 
 echo $band > ${dir}/band.number.grayscale     # band number for gray scale images
