@@ -100,6 +100,11 @@
 196t208 289t313 c        # avirisng_2014a     AVIRIS-NG
 196t208 289t313 c        # avirisng_2014b     AVIRIS-NG
 196t208 289t313 c        # avirisng_2021a     AVIRIS-NG
+1t2 140t146 194t216 c   # emit_b
+#1t4 118t148 188t228 282t285c   # emit_c
+#1t4 128t144 188t228 282t285c   # emit_c 1t4 48t56 118t148 188t228 282t285c   # emit_c
+1t4 128t148 188t214 218 219t221 226 282t285c #emit_c
+#1t4 129t148 188t228 282t285c   # emit_c 1t4 48t56 118t148 188t228 282t285c   # emit_c
 
 
        c       # CRISM_438a

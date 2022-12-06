@@ -20,7 +20,7 @@ fi
 #       'Wavelengths in microns 224 ch AVIRIS95a ' \ 
 #       'Resolution  in microns 224 ch AVIRIS95a '   -waves wavefile   -fwhm fwhmfile
 
-if [ -z "$12" ]
+if [ -z "${12}" ]
 then
 	echo "insufficient input"
 	echo " "
@@ -109,10 +109,10 @@ fi
 
 if [ "$9" = "-waves" ]
 then
-	if [ ! -f "$10" ]
+	if [ ! -f "${10}" ]
 	then
-		echo "expected a file after -waves, found: $10"
-		echo "$10 does not exist"
+		echo "expected a file after -waves, found: ${10}"
+		echo "${10} does not exist"
 		echo "exit 1"
 		exit 1
 	fi
@@ -121,25 +121,25 @@ else
 	echo "exit 1"
 	exit 1
 fi
-waves=$10
+waves=${10}
 
-if [ "$11" = "-fwhm" ]
+if [ "${11}" = "-fwhm" ]
 then
-	if [ ! -f "$12" ]
+	if [ ! -f "${12}" ]
 	then
-		echo "expected a file after -fwhm, found: $12"
-		echo "$12 does not exist"
+		echo "expected a file after -fwhm, found: ${12}"
+		echo "${12} does not exist"
 		echo "exit 1"
 		exit 1
 	fi
 else
-	echo "expected -fwhm, found: $11"
+	echo "expected -fwhm, found: ${11}"
 	echo "exit 1"
 	exit 1
 fi
-fwhm=$12
+fwhm=${12}
 
-if [ "$13" = "noX" ]
+if [ "${13}" = "noX" ]
 then
 	echo "plots will be ascii, no X-windows"
 	xoption="noX"

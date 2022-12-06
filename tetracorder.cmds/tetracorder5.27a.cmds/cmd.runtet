@@ -18,10 +18,10 @@
 #####   TO BE CHANGED WHEN CHANGING TETRACORDER VERSION:
 
 	# production version for cubes:
-	ptc="/usr/local/bin/tetracorder5.27"
+	ptc="${TETRA}/bin/tetracorder5.27"
 
 	# production version for large single spectra:
-	pts="/usr/local/bin/tetracorder5.27single"
+	pts="${TETRA}/bin/tetracorder5.27single"
 
 ####################################################################
 
@@ -170,6 +170,7 @@ e
 EOI
 
 	echo "tetracorder complete" `date`
+    exit
 
 	echo "Begin post tetracorder work on cube mapping results"
 

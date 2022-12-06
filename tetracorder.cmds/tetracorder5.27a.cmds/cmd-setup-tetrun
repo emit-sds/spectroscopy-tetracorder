@@ -17,7 +17,7 @@
 ####################################################################
 #### NOTE: THINGS TO CHANGE IF THIS SCRIPT IS MOVED:          ######
                                                               ######
-source=/t1/tetracorder.cmds/tetracorder5.27a.cmds             ######
+source=${TETRA_CMDS}                                          ######
                                                               ######
 ####################################################################
 #### NOTE: THINGS TO CHANGE FOR NEW VERSIONS                  ######

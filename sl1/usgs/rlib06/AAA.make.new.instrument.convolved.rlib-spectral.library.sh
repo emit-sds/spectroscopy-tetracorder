@@ -42,17 +42,17 @@ splib06name=`echo $rlib06name | sed -e 's/^r06/s06/'`
 echo "library: $rlib06name will be setup from $splib06name library"
 
 
-if [ ! -f "/sl1/usgs/library06.conv/startfiles/$splib06name.start" ]
+if [ ! -f "../../../sl1/usgs/library06.conv/startfiles/$splib06name.start" ]
 then
-	echo "Could not find /sl1/usgs/library06.conv/startfiles/$splib06name.start"
-	echo "build $splib06name in /sl1/usgs/library06.conv/ first"
+	echo "Could not find ../../../sl1/usgs/library06.conv/startfiles/$splib06name.start"
+	echo "build $splib06name in ../../../sl1/usgs/library06.conv/ first"
 	echo "exit 1"
 	exit 1
 fi
-if [ ! -f "/sl1/usgs/library06.conv/restartfiles/r.$splib06name" ]
+if [ ! -f "../../../sl1/usgs/library06.conv/restartfiles/r.$splib06name" ]
 then
-	echo "Could not find "/sl1/usgs/library06.conv/restartfiles/r.$splib06name
-	echo "build $splib06name in /sl1/usgs/library06.conv/ first"
+	echo "Could not find "../../../sl1/usgs/library06.conv/restartfiles/r.$splib06name
+	echo "build $splib06name in ../../../sl1/usgs/library06.conv/ first"
 	echo "exit 1"
 	exit 1
 fi
@@ -81,7 +81,7 @@ fi
 
 echo "Making startfiles/$rlib06name.start"
 
-cp /sl1/usgs/library06.conv/startfiles/$splib06name.start startfiles/$rlib06name.start
+cp ../../../sl1/usgs/library06.conv/startfiles/$splib06name.start startfiles/$rlib06name.start
 spsettitle startfiles/$rlib06name.start 1 "Digital Spectral Library: $rlib06name            "  force
 spsetwave startfiles/$rlib06name.start  6  6 12  force
 spsetwave startfiles/$rlib06name.start 12  6 12  force
@@ -90,7 +90,7 @@ spprint startfiles/$rlib06name.start
 
 echo "Making restartfiles/r.$rlib06name"
 
-cp /sl1/usgs/library06.conv/restartfiles/r.$splib06name restartfiles/r.$rlib06name
+cp ../../../sl1/usgs/library06.conv/restartfiles/r.$splib06name restartfiles/r.$rlib06name
 
 mv restartfiles/r.$rlib06name restartfiles/r.foo
 
