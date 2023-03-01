@@ -2,18 +2,19 @@ SPECPR_Restart=2.00      # Restart Version
 #
 # file names
 #
-ivfl=/dev/null                                                                       
-iwfl=/sl1/usgs/rlib06/r06emita                                                       
-idfl=/dev/null                                                                       
-iufl=/dev/null
-iyfl=/sl1/usgs/library06.conv/s06emita                                             
+ivfl=/dev/null                                                                        
+iwfl=/beegfs/store/tetracorder/official_libraries/r06emita
+idfl=/dev/null                                                              
+iufl=/dev/null                                                              
+iyfl=/beegfs/store/tetracorder/official_libraries/s06emita
+
 isfl=/dev/null                                                                       
-ilfl=spoolfile                                                                       
-irfl=r1-emita                                                                        
+ilfl=/dev/null                                                                       
+irfl=r1-em20a                                                                      
 #
 # protection number for open files (v,w,d,u,y,s)
 #
-iprtv=             0  # device protection v
+iprtv=          8219  # device protection v
 iprtw=          -557  # device protection w
 iprtd=             0  # device protection d
 iprtu=         -7356  # device protection u
@@ -33,16 +34,16 @@ inmy=       s06emita  # file device letter y
 wmina=  0.350000E+00  # plot min wavelength
 wmaxa=  0.250000E+01  # plot max wavelength
 bbnd=   0.000000E+00  # plot min reflectance
-ubnd=   0.105000E+01  # plot max reflectance
+ubnd=   0.110000E+01  # plot max reflectance
 #
-istarp(1)=         #  # star pack letter
-istarp(2)=         0  # star pack rec. no.
+istarp(1)=         0  # star pack letter
+istarp(2)= 538976304  # star pack rec. no.
 #
 alat=      0.0000000  # observatory lat in rads
 ra=        0.0000000  # right ascension in radians
 dec=       0.0000000  # declination in radians
 ha=        0.0000000  # hour angle in radians
-airmas=    0.0000000  # air mass of object
+airmas=     1.000000  # air mass of object
 iwch=              0  # wavelength calib shift
 #
 # record pointers
@@ -67,7 +68,7 @@ iline=             1  # graphics line type
 #
 infmth=            0  #
 infopr=            1  #
-inftrn=            0  #
+inftrn=            1  #
 iother(1)=         0  #
 iother(2)=         0  #
 iother(3)=         0  #
@@ -80,9 +81,9 @@ iother(9)=         0  #
 #
 cfile=#                                         #
 #
-igrmod=           51  # graphics mode
+igrmod=           52  # graphics mode
 #
-itrol(1)=          Y  # wavelength file id
+itrol(1)=          V  # wavelength file id
 itrol(2)=          6  # record in use
 itrol(3)=          a  # chan/wave/energy plot flag
 #

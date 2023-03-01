@@ -2,14 +2,14 @@ SPECPR_Restart=2.00      # Restart Version
 #
 # file names
 #
-ivfl=s06an21a                                                                        
+ivfl=s06emitc                                                                        
 iwfl=/dev/null                                                                       
 idfl=/dev/null                                                                       
 iufl=/dev/null                                                                       
 iyfl=splib06b                                                                        
 isfl=/dev/null                                                                       
 ilfl=/dev/null                                                                       
-irfl=r.s06an21a                                                                      
+irfl=r.s06emitc                                                                      
 #
 # protection number for open files (v,w,d,u,y,s)
 #
@@ -22,7 +22,7 @@ iprts=             0  # device protection s
 #
 # short 8 character names associated with file device letters
 #
-isavt=      s06an21a  # file device letter v
+isavt=      s06emitc  # file device letter v
 iwdgt=      *unasnd*  # file device letter w
 iwrkt=      *unasnd*  # file device letter d
 inmu=       *unasnd*  # file device letter u
@@ -59,7 +59,7 @@ ilpt=              1  # line printer
 icdr=              0  # card reader
 ipp=               1  # printer/plotter
 #
-nchans=          425  # num wave chans
+nchans=          285  # num wave chans
 ibnrm1=           30  # band anal
 ibnrm2=           38  # band anal
 nchsav=            0  # num chan save

@@ -99,7 +99,13 @@
 
 196t208 289t313 c        # avirisng_2014a     AVIRIS-NG
 196t208 289t313 c        # avirisng_2014b     AVIRIS-NG
+196t208 289t313 c        # avirisng_2020a     AVIRIS-NG
 196t208 289t313 c        # avirisng_2021a     AVIRIS-NG
+1t3 150t165 220t245 c    # emit_synt     EMIT Synthetic
+1t2 140t146 194t216 c    # emit_20220314     EMIT Synthetic
+1t2 140t146 194t216 c   # emit_a
+120t149 188t224 c   # emit_c
+194t207 288t312 c       # neon_2018 NEON
 
 
        c       # CRISM_438a
