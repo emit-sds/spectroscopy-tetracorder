@@ -10,7 +10,7 @@ c
 ==[outwave]V6
 ==[outres]v12  s
 ==[sppad]v5
-==[stime]0.05
+==[stime]0.1
 m
 \######## convolve spectrum
 ==[inwave]Y6
@@ -1799,6 +1799,39 @@ e;m  \# go to math
 ==[inres]y133
 ==[Recnum] 1943
 ==[Title]CO2_frost_on_H2O_ice 100K #2 r06ag21a=
+<work/convolve.cmds.work
+e;t  \# go to display
+[sppad] t v  \# add padding record 1
+[sppad] t v  \# add padding record 2
+[sppad] t v  \# add padding record 3
+e;m  \# go to math
+\######## convolve spectrum
+==[inwave]Y120
+==[inres]y133
+==[Recnum] 1956
+==[Title]CO2+O2+CH4 TRANSM ModtranZ20 r06ag21a=
+<work/convolve.cmds.work
+e;t  \# go to display
+[sppad] t v  \# add padding record 1
+[sppad] t v  \# add padding record 2
+[sppad] t v  \# add padding record 3
+e;m  \# go to math
+\######## convolve spectrum
+==[inwave]Y28
+==[inres]y34
+==[Recnum] 1969
+==[Title]Wollastonite HS348.3B r06ag21a=c
+<work/convolve.cmds.work
+e;t  \# go to display
+[sppad] t v  \# add padding record 1
+[sppad] t v  \# add padding record 2
+[sppad] t v  \# add padding record 3
+e;m  \# go to math
+\######## convolve spectrum
+==[inwave]Y28
+==[inres]y34
+==[Recnum] 1975
+==[Title]frost on ice 170K Clark1981 r06ag21a=a
 <work/convolve.cmds.work
 e;t  \# go to display
 [sppad] t v  \# add padding record 1

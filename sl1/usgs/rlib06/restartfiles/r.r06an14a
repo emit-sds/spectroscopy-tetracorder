@@ -13,11 +13,11 @@ irfl=r.r06av13a
 #
 # protection number for open files (v,w,d,u,y,s)
 #
-iprtv=          1007  # device protection v
+iprtv=          1025  # device protection v
 iprtw=           -29  # device protection w
 iprtd=           -29  # device protection d
 iprtu=           -29  # device protection u
-iprty=          1955  # device protection y
+iprty=          1980  # device protection y
 iprts=             0  # device protection s
 #
 # short 8 character names associated with file device letters
@@ -30,10 +30,10 @@ inmy=       sprlb06b  # file device letter y
 #
 # plot control values (real number format: ex. 0.23E+01)
 #
-wmina=  0.000000E+00  # plot min wavelength
-wmaxa=  0.000000E+00  # plot max wavelength
+wmina=  0.350000E+00  # plot min wavelength
+wmaxa=  0.255000E+01  # plot max wavelength
 bbnd=   0.000000E+00  # plot min reflectance
-ubnd=   0.150000E+01  # plot max reflectance
+ubnd=   0.110000E+01  # plot max reflectance
 #
 istarp(1)=         0  # star pack letter
 istarp(2)= 538976304  # star pack rec. no.
@@ -49,11 +49,11 @@ iwch=              0  # wavelength calib shift
 #
 mag0=             -1  # mag tape drive 0
 mag1=             -1  # mag tape drive 1
-isavf=          1008  # file v
+isavf=          1026  # file v
 iwjf=             10  # file w
 iwrkf=             1  # file d
 isvcu=            30  # file u
-iwjcy=           146  # file y
+iwjcy=            40  # file y
 istrf=             1  # file s
 ilpt=              1  # line printer
 icdr=              0  # card reader
@@ -63,7 +63,7 @@ nchans=          426  # num wave chans
 ibnrm1=           30  # band anal
 ibnrm2=           38  # band anal
 nchsav=            0  # num chan save
-iline=             0  # graphics line type
+iline=             3  # graphics line type
 #
 infmth=            0  #
 infopr=            1  #
@@ -84,7 +84,7 @@ igrmod=           52  # graphics mode
 #
 itrol(1)=          V  # wavelength file id
 itrol(2)=          6  # record in use
-itrol(3)=          h  # chan/wave/energy plot flag
+itrol(3)=          a  # chan/wave/energy plot flag
 #
 # parameters for 3D file I/O
 #

@@ -201,6 +201,11 @@ STEP 5 details: run make.new.convol.library.start.file
 		'Wavelengths in microns 900 ch s06ag21a  ' \
 		'Resolution  in microns 900 ch s06ag21a  '
 
+         ./make.new.convol.library.start.file  s06emitc  285 \
+		'Convolved EMIT-20220813 285 ch library ' \
+		'Wavelengths in microns 285 ch EMITc '     \
+                'Resolution  in microns 285 ch EMITc '
+
    Note: 2017+ spprint shows the wavelength and resolution
    Check that the pointer are set correctly and if not set them with spsetwave
    Example:

@@ -13,11 +13,11 @@ irfl=r.r06av06a
 #
 # protection number for open files (v,w,d,u,y,s)
 #
-iprtv=          1007  # device protection v
+iprtv=          1025  # device protection v
 iprtw=         -8219  # device protection w
 iprtd=             0  # device protection d
 iprtu=             0  # device protection u
-iprty=          1955  # device protection y
+iprty=          1980  # device protection y
 iprts=             0  # device protection s
 #
 # short 8 character names associated with file device letters
@@ -31,7 +31,7 @@ inmy=       sprlb06b  # file device letter y
 # plot control values (real number format: ex. 0.23E+01)
 #
 wmina=  0.350000E+00  # plot min wavelength
-wmaxa=  0.350000E+01  # plot max wavelength
+wmaxa=  0.255000E+01  # plot max wavelength
 bbnd=   0.000000E+00  # plot min reflectance
 ubnd=   0.110000E+01  # plot max reflectance
 #
@@ -49,11 +49,11 @@ iwch=              0  # wavelength calib shift
 #
 mag0=             -1  # mag tape drive 0
 mag1=             -1  # mag tape drive 1
-isavf=          1008  # file v
+isavf=          1026  # file v
 iwjf=             13  # file w
 iwrkf=             1  # file d
 isvcu=             1  # file u
-iwjcy=           146  # file y
+iwjcy=            40  # file y
 istrf=             1  # file s
 ilpt=              1  # line printer
 icdr=              0  # card reader

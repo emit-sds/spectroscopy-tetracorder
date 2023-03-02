@@ -2,7 +2,7 @@ SPECPR_Restart=2.00      # Restart Version
 #
 # file names
 #
-ivfl=r06fs00a                                                                        
+ivfl=/sl1/usgs/library07/splib07a                                                    
 iwfl=sprlb06a                                                                        
 idfl=/sl1/usgs/library06.conv/s06fs00a                                               
 iufl=/sl1/usgs/library06/splib06a                                                    
@@ -13,16 +13,16 @@ irfl=r.r06av13a
 #
 # protection number for open files (v,w,d,u,y,s)
 #
-iprtv=           917  # device protection v
-iprtw=          1736  # device protection w
+iprtv=        -24213  # device protection v
+iprtw=          1937  # device protection w
 iprtd=         -8219  # device protection d
 iprtu=        -33842  # device protection u
-iprty=          1761  # device protection y
+iprty=          1974  # device protection y
 iprts=             0  # device protection s
 #
 # short 8 character names associated with file device letters
 #
-isavt=      r06fs00a  # file device letter v
+isavt=      splib07a  # file device letter v
 iwdgt=      sprlb06a  # file device letter w
 iwrkt=      s06fs00a  # file device letter d
 inmu=       splib06a  # file device letter u
@@ -30,27 +30,27 @@ inmy=       sprlb06b  # file device letter y
 #
 # plot control values (real number format: ex. 0.23E+01)
 #
-wmina=  0.661712E+00  # plot min wavelength
-wmaxa=  0.132568E+01  # plot max wavelength
-bbnd=   0.376018E+00  # plot min reflectance
-ubnd=   0.561072E+00  # plot max reflectance
+wmina=  0.700000E+00  # plot min wavelength
+wmaxa=  0.150000E+01  # plot max wavelength
+bbnd=   0.966096E-01  # plot min reflectance
+ubnd=   0.321189E+00  # plot max reflectance
 #
 istarp(1)=         0  # star pack letter
-istarp(2)= 538976304  # star pack rec. no.
+istarp(2)= 538976320  # star pack rec. no.
 #
 alat=      0.0000000  # observatory lat in rads
 ra=        0.0000000  # right ascension in radians
 dec=       0.0000000  # declination in radians
 ha=        0.0000000  # hour angle in radians
-airmas=     0.000000  # air mass of object
+airmas=     0.001000  # air mass of object
 iwch=              0  # wavelength calib shift
 #
 # record pointers
 #
 mag0=             -1  # mag tape drive 0
 mag1=             -1  # mag tape drive 1
-isavf=            12  # file v
-iwjf=           1737  # file w
+isavf=            29  # file v
+iwjf=           1938  # file w
 iwrkf=            12  # file d
 isvcu=             8  # file u
 iwjcy=           108  # file y
@@ -59,11 +59,11 @@ ilpt=              1  # line printer
 icdr=              0  # card reader
 ipp=               1  # printer/plotter
 #
-nchans=         4301  # num wave chans
+nchans=         2151  # num wave chans
 ibnrm1=           30  # band anal
 ibnrm2=           38  # band anal
 nchsav=            0  # num chan save
-iline=             1  # graphics line type
+iline=             3  # graphics line type
 #
 infmth=            0  #
 infopr=            1  #
@@ -82,8 +82,8 @@ cfile=#                                         #
 #
 igrmod=           52  # graphics mode
 #
-itrol(1)=          W  # wavelength file id
-itrol(2)=         80  # record in use
+itrol(1)=          V  # wavelength file id
+itrol(2)=         23  # record in use
 itrol(3)=          a  # chan/wave/energy plot flag
 #
 # parameters for 3D file I/O

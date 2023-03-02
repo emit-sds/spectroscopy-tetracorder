@@ -990,4 +990,22 @@ m
 ==[Recnum] 1943
 ==[Title]CO2_frost_on_H2O_ice 100K #2 r06fs00a=
 <work/convolve.cmds.work
+\######## convolve spectrum
+==[inwave]Y120
+==[inres]y133
+==[Recnum] 1956
+==[Title]CO2+O2+CH4 TRANSM ModtranZ20 r06fs00a=
+<work/convolve.cmds.work
+\######## convolve spectrum
+==[inwave]Y28
+==[inres]y34
+==[Recnum] 1969
+==[Title]Wollastonite HS348.3B r06fs00a=c
+<work/convolve.cmds.work
+\######## convolve spectrum
+==[inwave]Y28
+==[inres]y34
+==[Recnum] 1975
+==[Title]frost on ice 170K Clark1981 r06fs00a=a
+<work/convolve.cmds.work
 e;EX

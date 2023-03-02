@@ -221,6 +221,12 @@ STEP 5 details: run make.new.convol.library.start.file
 		'Wavelengths in microns 900 ch s06ag21a  ' \
 		'Resolution  in microns 900 ch s06ag21a  '
 
+         ./make.new.convol.library.start.file  s06emitc  285 \
+                'Convolved EMIT-20220813 285 ch library ' \
+                'Wavelengths in microns 285 ch EMITc '     \
+                'Resolution  in microns 285 ch EMITc '
+
+
    Note: 2017+ apprint shows the wavelength and resolution
    Check that the pointer are set correctly and if not set them with spsetwave
    Example:
@@ -357,10 +363,10 @@ AVIRIS:
 AVIRIS-NG:
             ./mak.convol.library  s06an14  a  426   AVIRNG14 12  # aviris-ng 2014
             ./mak.convol.library  s06an14  b  425   AVIRNG14 12  # aviris-ng 2014
-            ./mak.convol.library  s06an21  a  425   AVIRNG14 12  # aviris-ng 2014
 
 EMIT:
             ./mak.convol.library  s06emit  a  288   EMIT22a  12  # EMIT before launch to Space Station
+            ./mak.convol.library  s06emit  c  285   EMIT22c  12  # EMIT 022-08-13 in orbit wavelengths
 
 VIMS:
             ./mak.convol.library  s06vm07  a  352   VIMS07   12

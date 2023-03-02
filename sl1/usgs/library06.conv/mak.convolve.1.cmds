@@ -238,7 +238,7 @@ do
 		then
 			chans=3961
 
-			echo "\######## convolve spectrum" >> $cmdfil
+			echo '\######## convolve spectrum' >> $cmdfil
 			echo "==[inwave]Y6"        >> $cmdfil   # input wavelengths
 			echo "==[inres]y17"        >> $cmdfil   # input resolution
 
@@ -258,7 +258,7 @@ do
 		then
 			chans=2151
 
-			echo "\######## convolve spectrum" >> $cmdfil
+			echo '\######## convolve spectrum' >> $cmdfil
 			echo "==[inwave]Y28"       >> $cmdfil   # input wavelengths
 			echo "==[inres]y34"        >> $cmdfil   # input resolution
 
@@ -277,7 +277,7 @@ do
 		then
 			chans=3325
 
-			echo "\######## convolve spectrum" >> $cmdfil
+			echo '\######## convolve spectrum' >> $cmdfil
 			echo "==[inwave]Y40"       >> $cmdfil   # input wavelengths
 			echo "==[inres]y50"        >> $cmdfil   # input resolution
 
@@ -296,7 +296,7 @@ do
 		then
 			chans=4280
 
-			echo "\######## convolve spectrum" >> $cmdfil
+			echo '\######## convolve spectrum' >> $cmdfil
 			echo "==[inwave]Y60"       >> $cmdfil   # input wavelengths
 			echo "==[inres]y72"        >> $cmdfil   # input resolution
 
@@ -315,7 +315,7 @@ do
 		then
 			chans=2138
 
-			echo "\######## convolve spectrum" >> $cmdfil
+			echo '\######## convolve spectrum' >> $cmdfil
 			echo "==[inwave]Y84"       >> $cmdfil   # input wavelengths
 			echo "==[inres]y90"        >> $cmdfil   # input resolution
 

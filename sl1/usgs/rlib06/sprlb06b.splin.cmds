@@ -1305,4 +1305,28 @@ t
 ;;;;;;b;120 
 c;133 
 e;e
+\################## copy a spectrum
+==[outwave]V120
+t
+==[Recnum] 1919
+[FILEID][Recnum]citv
+;;;;;;b;120 
+c;133 
+e;e
+\################## copy a spectrum
+==[outwave]V28
+t
+==[Recnum] 1932
+[FILEID][Recnum]citv
+;;;;;;b;28 
+c;34 
+e;e
+\################## copy a spectrum
+==[outwave]V28
+t
+==[Recnum] 1938
+[FILEID][Recnum]citv
+;;;;;;b;28 
+c;34 
+e;e
 e;EX

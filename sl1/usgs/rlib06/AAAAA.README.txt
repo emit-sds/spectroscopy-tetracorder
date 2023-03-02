@@ -326,7 +326,7 @@ Commands:
 #                                                   keyword rec
 #                                                           number
 
-AVIRIS:
+# AVIRIS:
             ./mak.convol.library  r06av95  a  224   AVIRIS95 12  sleep 0.1 # aviris 1995
             ./mak.convol.library  r06av97  a  224   AVIRIS97 12  sleep 0.1 # aviris 1997
             ./mak.convol.library  r06av98  a  224   AVIRIS98 12  sleep 0.1 # aviris 1998
@@ -345,24 +345,25 @@ AVIRIS:
             ./mak.convol.library  r06av17  a  224   AVIRIS17 12  sleep 0.1 # aviris 2017
             ./mak.convol.library  r06av18  a  224   AVIRIS18 12  sleep 0.1 # aviris 2018
 
-AVIRIS-NG:
+# AVIRIS-NG:
             ./mak.convol.library  r06an14  a  426   AVIRNG14 12  sleep 0.1 # aviris-ng 2014
             ./mak.convol.library  r06an14  b  425   AVIRNG14 12  sleep 0.1 # aviris-ng 2014
             ./mak.convol.library  r06an21  a  425   AVIRNG21 12  sleep 0.1  # aviris-ng 2021
 
-EMIT:
+# EMIT:
             ./mak.convol.library  r06emit  a  288   EMIT22a  12  sleep 0.1  # EMIT before launch to Space Station
+            ./mak.convol.library  r06emit  c  285   EMIT22c  12  sleep 0.1  # EMIT 022-08-13 in orbit wavelengths
  
 
-VIMS:
+# VIMS:
             ./mak.convol.library  r06vm07  a  352   VIMS07   12  sleep 0.1
 
-CRISM:
+# CRISM:
             ./mak.convol.library  r06cr08  a  438   CRISM08a 12  sleep 0.1
             ./mak.convol.library  r06cr08  b   72   CRISM08a 12  sleep 0.1  # global mode
             ./mak.convol.library  r06crj3  a  489   CRISMj3a 12  sleep 0.1  # 2012 J_MTR3 merged V+IR version a
 
-Moon Mineralogy Mapper:
+# Moon Mineralogy Mapper:
 
             ./mak.convol.library  r06mm07  a  260   MMM      12  sleep 0.1 # 2007 targeted waves
             ./mak.convol.library  r06mm07  c   86   MMM      12  sleep 0.1 # 2007 global waves
@@ -370,22 +371,22 @@ Moon Mineralogy Mapper:
             ./mak.convol.library  r06mm09  c   85   MMM      12  sleep 0.1 # 2009 85 channel global waves
 
 
-PRISMA 2021 ESA Earth orbiter, e.g. s06pr01a 238 channels:
+# PRISMA 2021 ESA Earth orbiter, e.g. s06pr01a 238 channels:
 
             ./mak.convol.library   r06pr01  a 238  PRISMA21a 12  sleep 0.1 # PRISMA 2021
 
-ASD Field spectrometer, standard waves and resolution, 2151 channels:
+# ASD Field spectrometer, standard waves and resolution, 2151 channels:
 
            ./mak.convol.library  r06fs00   a 2151  ASDfs00a  12  sleep 0.1
 
-FTIR instruments:
+# FTIR instruments:
 
            ./mak.convol.library  r06ag21   a  900  AGFTIRa   12  sleep 0.1
 
 
 #########################################################################
 
-After the new library is made, check to make sure the spectral look correct.
+After the new library is made, check to make sure the spectra look correct.
 
            spprint specprfilename
 

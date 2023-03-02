@@ -2,38 +2,38 @@ SPECPR_Restart=2.00      # Restart Version
 #
 # file names
 #
-ivfl=s06gn50b                                                                        
-iwfl=/sl1/usgs/rlib06/r06crj3a                                                       
-idfl=s06crj3a                                                                        
-iufl=lab4850a                                                                        
+ivfl=s06emitc                                                                        
+iwfl=/b2/emit/wavelengths/s06emitc                                                   
+idfl=/dev/null                                                                       
+iufl=/dev/null                                                                       
 iyfl=splib06b                                                                        
 isfl=/dev/null                                                                       
-ilfl=spoolfile                                                                       
-irfl=restartfiles/r.s06av95a                                                         
+ilfl=/dev/null                                                                       
+irfl=r.s06emitc                                                                      
 #
 # protection number for open files (v,w,d,u,y,s)
 #
 iprtv=          8219  # device protection v
-iprtw=          -557  # device protection w
-iprtd=          8219  # device protection d
-iprtu=            44  # device protection u
+iprtw=         -8219  # device protection w
+iprtd=             0  # device protection d
+iprtu=             0  # device protection u
 iprty=        -13744  # device protection y
 iprts=             0  # device protection s
 #
 # short 8 character names associated with file device letters
 #
-isavt=      s06gn50b  # file device letter v
-iwdgt=      r06crj3a  # file device letter w
-iwrkt=      s06crj3a  # file device letter d
-inmu=       lab4850a  # file device letter u
+isavt=      s06emitc  # file device letter v
+iwdgt=      s06emitc  # file device letter w
+iwrkt=      *unasnd*  # file device letter d
+inmu=       *unasnd*  # file device letter u
 inmy=       splib06b  # file device letter y
 #
 # plot control values (real number format: ex. 0.23E+01)
 #
-wmina=  0.200000E+01  # plot min wavelength
-wmaxa=  0.270000E+01  # plot max wavelength
-bbnd=   0.395005E+00  # plot min reflectance
-ubnd=   0.613047E+00  # plot max reflectance
+wmina=  0.350000E+00  # plot min wavelength
+wmaxa=  0.250000E+01  # plot max wavelength
+bbnd=   0.999900E+00  # plot min reflectance
+ubnd=   0.100010E+01  # plot max reflectance
 #
 istarp(1)=         0  # star pack letter
 istarp(2)= 538976304  # star pack rec. no.
@@ -49,17 +49,17 @@ iwch=              0  # wavelength calib shift
 #
 mag0=             -1  # mag tape drive 0
 mag1=             -1  # mag tape drive 1
-isavf=             6  # file v
-iwjf=            278  # file w
-iwrkf=             8  # file d
-isvcu=            45  # file u
-iwjcy=            17  # file y
+isavf=             8  # file v
+iwjf=              8  # file w
+iwrkf=             1  # file d
+isvcu=             7  # file u
+iwjcy=            40  # file y
 istrf=             1  # file s
 ilpt=              1  # line printer
 icdr=              0  # card reader
 ipp=               1  # printer/plotter
 #
-nchans=         3961  # num wave chans
+nchans=          285  # num wave chans
 ibnrm1=           30  # band anal
 ibnrm2=           38  # band anal
 nchsav=            0  # num chan save
@@ -67,7 +67,7 @@ iline=             1  # graphics line type
 #
 infmth=            0  #
 infopr=            1  #
-inftrn=            0  #
+inftrn=            1  #
 iother(1)=         0  #
 iother(2)=         0  #
 iother(3)=         0  #
@@ -80,9 +80,9 @@ iother(9)=         0  #
 #
 cfile=#                                         #
 #
-igrmod=           99  # graphics mode
+igrmod=           52  # graphics mode
 #
-itrol(1)=          Y  # wavelength file id
+itrol(1)=          V  # wavelength file id
 itrol(2)=          6  # record in use
 itrol(3)=          a  # chan/wave/energy plot flag
 #

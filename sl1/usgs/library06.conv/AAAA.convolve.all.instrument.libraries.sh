@@ -50,6 +50,7 @@
 
 # EMIT:
             ./mak.convol.library  s06emit  a  288   EMIT22a  12  # EMIT before launch to Space Station
+            ./mak.convol.library  s06emit  c  285   EMIT22c  12  # EMIT 022-08-13 in orbit wavelengths
 
 
 # VIMS:
