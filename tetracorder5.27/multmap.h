@@ -117,17 +117,17 @@
 
 ####### use the following set of lines for image cubes with 710 channels or less, huge cubes
 # A
-#       parameter       (imaxch=710)   # maximum channels in spectrum
-#       parameter       (maxpix=32765) # maximum pixels per line
-#       parameter       (maxpi2=65530) # = maxpix *2
-#       parameter       (maxpi4=131060) # = maxpix *4
+       parameter       (imaxch=710)   # maximum channels in spectrum
+       parameter       (maxpix=32765) # maximum pixels per line
+       parameter       (maxpi2=65530) # = maxpix *2
+       parameter       (maxpi4=131060) # = maxpix *4
 
 ######## NOTE: use the following 4 lines for single spectra analysis, and reasonable cubes
 # B                                        e.g. FTIR, ASD
-         parameter       (imaxch=4852)   # maximum channels in spectrum
-         parameter       (maxpix=4000) # maximum pixels per line
-         parameter       (maxpi2=8000) # = maxpix *2
-         parameter       (maxpi4=16000) # = maxpix *4
+#         parameter       (imaxch=4852)   # maximum channels in spectrum
+#         parameter       (maxpix=4000) # maximum pixels per line
+#         parameter       (maxpi2=8000) # = maxpix *2
+#         parameter       (maxpi4=16000) # = maxpix *4
 	 # setting maxpix <219 causes memory fault--need to investigate.
 
 ######## NOTE: use the following 4 lines for single spectra analysis, essentially no cubes

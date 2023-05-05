@@ -2,14 +2,14 @@ SPECPR_Restart=2.00      # Restart Version
 #
 # file names
 #
-ivfl=s06emitc                                                                        
+ivfl=s06emitd                                                                        
 iwfl=/dev/null                                                                       
 idfl=/dev/null                                                                       
 iufl=/dev/null                                                                       
 iyfl=splib06b                                                                        
 isfl=/dev/null                                                                       
 ilfl=/dev/null                                                                       
-irfl=r.s06emitc                                                                      
+irfl=r.s06emitd                                                                      
 #
 # protection number for open files (v,w,d,u,y,s)
 #
@@ -22,7 +22,7 @@ iprts=             0  # device protection s
 #
 # short 8 character names associated with file device letters
 #
-isavt=      s06emitc  # file device letter v
+isavt=      s06emitd  # file device letter v
 iwdgt=      *unasnd*  # file device letter w
 iwrkt=      *unasnd*  # file device letter d
 inmu=       *unasnd*  # file device letter u
@@ -80,7 +80,7 @@ iother(9)=         0  #
 #
 cfile=#                                         #
 #
-igrmod=           52  # graphics mode
+igrmod=           99  # graphics mode
 #
 itrol(1)=          V  # wavelength file id
 itrol(2)=          6  # record in use

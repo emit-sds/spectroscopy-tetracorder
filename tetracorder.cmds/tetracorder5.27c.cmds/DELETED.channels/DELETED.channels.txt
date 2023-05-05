@@ -101,6 +101,11 @@
 196t208 289t313 c        # avirisng_2014b     AVIRIS-NG
 196t208 289t313 c        # avirisng_2021a     AVIRIS-NG
 
+#120t149 188t224 c   # emit_d
+1t4 75t79 99t106 128t148 188t214 218 219t221 226 280t285c # emit_d
+#128t148 188t214 282t285c  # emit_d
+#1t4 128t148 188t214 218 219t221 226  282t285c  # emit_d
+
 
        c       # CRISM_438a
 72t79  c       # CRISM_j3a  (CRISM merged V+IR J_MTR3  489 channels
